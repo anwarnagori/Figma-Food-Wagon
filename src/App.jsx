@@ -9,6 +9,7 @@ import Locations from "./components/Locations";
 import Popular from "./components/Popular";
 import Feature from "./components/Feature";
 import SearchFood from "./components/SearchFood";
+import Discounts from "./components/Discounts";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Popular />
       <Feature />
       <SearchFood />
+      <Discounts />
     </>
   );
 };
