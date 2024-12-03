@@ -8,6 +8,7 @@ import Discount from "./components/Discount";
 import Locations from "./components/Locations";
 import Popular from "./components/Popular";
 import Feature from "./components/Feature";
+import SearchFood from "./components/SearchFood";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Locations />
       <Popular />
       <Feature />
+      <SearchFood />
     </>
   );
 };
