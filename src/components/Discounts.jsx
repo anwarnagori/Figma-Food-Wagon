@@ -18,11 +18,7 @@ const Discounts = () => {
                   <div class="row justify-content-evenly">
                     <div class="col-md-3">
                       <div class="d-flex flex-md-column flex-xl-row justify-content-evenly justify-content-lg-between align-items-center">
-                        <img
-                          src={DiscountIcon}
-                          width="100"
-                          alt="Discounts"
-                        />
+                        <img src={DiscountIcon} width="100" alt="Discounts" />
                         <h2 class="fw-bolder text-1000 mb-0 text-gradient">
                           Daily Discounts
                         </h2>
@@ -59,11 +55,7 @@ const Discounts = () => {
           </div>
           <div class="row flex-center mt-md-8">
             <div class="col-lg-5 d-none d-lg-block mb-0">
-              <img
-                class="w-100"
-                src={PhoneCtaOne}
-                alt="App Image"
-              />
+              <img class="w-100" src={PhoneCtaOne} alt="App Image" />
             </div>
             <div class="col-lg-5">
               <h1 class="text-p-color">Install the app</h1>
@@ -76,11 +68,7 @@ const Discounts = () => {
                 href="https://www.apple.com/app-store/"
                 target="_blank"
               >
-                <img
-                  src={AppStore}
-                  width="160"
-                  alt="Download from App Store"
-                />
+                <img src={AppStore} width="160" alt="Download from App Store" />
               </a>
               <a href="https://play.google.com/store/apps" target="_blank">
                 <img

@@ -10,6 +10,8 @@ import Popular from "./components/Popular";
 import Feature from "./components/Feature";
 import SearchFood from "./components/SearchFood";
 import Discounts from "./components/Discounts";
+import CrispySandwiches from "./components/CrispySandwiches";
+import FriedChicken from "./components/FriedChicken";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
       <Feature />
       <SearchFood />
       <Discounts />
+      <CrispySandwiches />
+      <FriedChicken />
     </>
   );
 };
