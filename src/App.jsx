@@ -12,6 +12,9 @@ import SearchFood from "./components/SearchFood";
 import Discounts from "./components/Discounts";
 import CrispySandwiches from "./components/CrispySandwiches";
 import FriedChicken from "./components/FriedChicken";
+import SpicyPizza from "./components/SpicyPizza";
+import Order from "./components/Order";
+import Cities from "./components/Cities";
 
 const App = () => {
   return (
@@ -26,6 +29,9 @@ const App = () => {
       <Discounts />
       <CrispySandwiches />
       <FriedChicken />
+      <SpicyPizza />
+      <Order />
+      <Cities />
     </>
   );
 };
